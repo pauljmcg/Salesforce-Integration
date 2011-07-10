@@ -6,8 +6,8 @@ class SessionsController < ApplicationController
     ENV['sfdc_instance_url'] = request.env['omniauth.auth']['instance_url']
     #logger.debug "DEBUG sfdc_token:   #{ENV['sfdc_token']}"
     #logger.debug "DEBUG sfdc_instance_url:   #{ENV['sfdc_instance_url']}"
-    render :text => request.env['omniauth.auth'].inspect
-    #render :text => Accounts.get_first_hundred.inspect
+    #render :text => request.env['omniauth.auth'].inspect
+    render :text => Accounts.get_first_hundred.inspect
   end
 
   def fail

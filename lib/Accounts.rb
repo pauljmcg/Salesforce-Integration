@@ -20,8 +20,8 @@ class Accounts
 
   def self.get_first_hundred
     Accounts.set_headers
-    ActiveSupport::BufferedLogger.new("log/development.log").debug "#{ENV['sfdc_instance_url]}"
-    get(Accounts.root_url+"/query/?q=#{CGI::escape('SELECT Name, Id from Account LIMIT 100')}")
+    ActiveSupport::BufferedLogger.new("log/development.log").debug "#{ENV['sfdc_instance_url']}"
+    get(Accounts.root_url+"/query/?q=#{CGI::escape('SELECT Name, Id from Opportunity LIMIT 100')}")
   end
  
 end

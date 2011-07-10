@@ -3,4 +3,8 @@ Here's the tutorial I followed
 https://github.com/quintonwall/omniauth-rails3-forcedotcom/wiki/Build-Mobile-Apps-in-the-Cloud-with-Omniauth,-Httparty-and-Force.com
 
 
+<<<<<<< HEAD
 Also had to use openssl to create some keys and certificate, stored them in the lib/certs - may need to do the same for your own machine, I used localhost as the name
+=======
+Also had to use openssl to create some keys and certifcate, stored them in the lib/certs - may need to do the same for your own machine, I used localhost as the name
+>>>>>>> e9de642dc2e68163ccf49789cb055a3541a7d8b8
